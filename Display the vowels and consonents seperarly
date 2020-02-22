@@ -1,0 +1,12 @@
+a=input()
+op=''
+op1=''
+for i in range(0,len(a)):
+    if a[i]=='a' or a[i]=='e' or a[i]=='i' or a[i]=='o' or a[i]=='u' or a[i]==" " a[i]=='A' or a[i]=='E' or a[i]=='I' or a[i]=='O' or a[i]=='U':
+        op=op+a[i]
+        if a[i]==" ":
+            op1=op1+a[i]
+    else:
+        op1=op1+a[i]
+print("vowels are ",op)
+print("Consonents are ",op1)
